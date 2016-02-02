@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 22ad4d1c832377d4fa7b9d81a19ea2d2
+timeCreated: 1454244783
+licenseType: Free
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - mainTheme: {fileID: 8300000, guid: 54e4e05001734a540a7d15cecf3a3ea0, type: 3}
+  - ambience: {fileID: 8300000, guid: 3ff656d34e150ca4bb28b59bcd5114bb, type: 3}
+  - creep1: {fileID: 8300000, guid: 489965fffbbb51749b1f2088d1654a91, type: 3}
+  - creep2: {fileID: 8300000, guid: 4d23efcb7cb35fb49aa55e6b30106dee, type: 3}
+  - creep3: {fileID: 8300000, guid: 2080529daddfa07458e308de57942621, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

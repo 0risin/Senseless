@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+	<ProductVersion>10.0.20506</ProductVersion>
+	<SchemaVersion>2.0</SchemaVersion>
+	<RootNamespace></RootNamespace>
+	<ProjectGuid>{CB0E7BFB-2E74-BD82-F0DD-653E9C1F2895}</ProjectGuid>
+	<OutputType>Library</OutputType>
+	<AppDesignerFolder>Properties</AppDesignerFolder>
+	<AssemblyName>Assembly-CSharp</AssemblyName>
+	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+	<FileAlignment>512</FileAlignment>
+	<BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+	<DebugSymbols>true</DebugSymbols>
+	<DebugType>full</DebugType>
+	<Optimize>false</Optimize>
+	<OutputPath>Temp\bin\Debug\</OutputPath>
+	<DefineConstants>DEBUG;TRACE;UNITY_5_2_1;UNITY_5_2;UNITY_5;ENABLE_NEW_BUGREPORTER;ENABLE_2D_PHYSICS;ENABLE_4_6_FEATURES;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_FRAME_DEBUGGER;ENABLE_GENERICS;ENABLE_HOME_SCREEN;ENABLE_IMAGEEFFECTS;ENABLE_LIGHT_PROBES_LEGACY;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_PLUGIN_INSPECTOR;ENABLE_SHADOWS;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_REFLECTION_BUFFERS;INCLUDE_DYNAMIC_GI;INCLUDE_GI;INCLUDE_IL2CPP;INCLUDE_DIRECTX12;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_LOCALIZATION;ENABLE_ANDROID_ATLAS_ETC1_COMPRESSION;UNITY_WEBPLAYER;ENABLE_SUBSTANCE;WEBPLUG;ENABLE_TEXTUREID_MAP;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_MONO;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;CROSS_PLATFORM_INPUT</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+	<DebugType>pdbonly</DebugType>
+	<Optimize>true</Optimize>
+	<OutputPath>Temp\bin\Release\</OutputPath>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+	<Reference Include="System" />
+    <Reference Include="System.XML" />
+	<Reference Include="System.Core" />
+	<Reference Include="System.Xml.Linq" />
+	<Reference Include="UnityEngine">
+	  <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityEditor">
+	  <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+	</Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\PillarAnimation.cs" />
+     <Compile Include="Assets\ext\JMO Assets\WarFX\Demo\Assets\CFX_AutoStopLoopedEffect.cs" />
+     <Compile Include="Assets\ext\JMO Assets\WarFX\Demo\Assets\CFX_Demo_RandomDir.cs" />
+     <Compile Include="Assets\ext\JMO Assets\WarFX\Demo\Assets\CFX_Demo_RotateCamera.cs" />
+     <Compile Include="Assets\ext\JMO Assets\WarFX\Demo\Assets\CFX_Demo_Translate.cs" />
+     <Compile Include="Assets\ext\JMO Assets\WarFX\Demo\Assets\WFX_Demo.cs" />
+     <Compile Include="Assets\ext\JMO Assets\WarFX\Demo\Assets\WFX_Demo_DeleteAfterDelay.cs" />
+     <Compile Include="Assets\ext\JMO Assets\WarFX\Demo\Assets\WFX_Demo_New.cs" />
+     <Compile Include="Assets\ext\JMO Assets\WarFX\Demo\Assets\WFX_Demo_RandomDir.cs" />
+     <Compile Include="Assets\ext\JMO Assets\WarFX\Demo\Assets\WFX_Demo_Wall.cs" />
+     <Compile Include="Assets\ext\JMO Assets\WarFX\Demo\UI\CFX_Demo_GTButton.cs" />
+     <Compile Include="Assets\ext\JMO Assets\WarFX\Demo\UI\CFX_Demo_GTToggle.cs" />
+     <Compile Include="Assets\ext\JMO Assets\WarFX\Scripts\CFX_AutoDestructShuriken.cs" />
+     <Compile Include="Assets\ext\JMO Assets\WarFX\Scripts\CFX_LightIntensityFade.cs" />
+     <Compile Include="Assets\ext\JMO Assets\WarFX\Scripts\WFX_BulletHoleDecal.cs" />
+     <Compile Include="Assets\ext\JMO Assets\WarFX\Scripts\WFX_LightFlicker.cs" />
+     <Compile Include="Assets\ext\JMO Assets\WarFX\Spawn System\CFX_SpawnSystem.cs" />
+     <Compile Include="Assets\ext\Standard Assets\Characters\FirstPersonCharacter\Scripts\HeadBob.cs" />
+     <Compile Include="Assets\ext\Standard Assets\Characters\FirstPersonCharacter\Scripts\MouseLook.cs" />
+     <Compile Include="Assets\ext\Standard Assets\Characters\FirstPersonCharacter\Scripts\RigidbodyFirstPersonController.cs" />
+     <Compile Include="Assets\ext\Standard Assets\CrossPlatformInput\Scripts\AxisTouchButton.cs" />
+     <Compile Include="Assets\ext\Standard Assets\CrossPlatformInput\Scripts\ButtonHandler.cs" />
+     <Compile Include="Assets\ext\Standard Assets\CrossPlatformInput\Scripts\CrossPlatformInputManager.cs" />
+     <Compile Include="Assets\ext\Standard Assets\CrossPlatformInput\Scripts\InputAxisScrollbar.cs" />
+     <Compile Include="Assets\ext\Standard Assets\CrossPlatformInput\Scripts\Joystick.cs" />
+     <Compile Include="Assets\ext\Standard Assets\CrossPlatformInput\Scripts\MobileControlRig.cs" />
+     <Compile Include="Assets\ext\Standard Assets\CrossPlatformInput\Scripts\PlatformSpecific\MobileInput.cs" />
+     <Compile Include="Assets\ext\Standard Assets\CrossPlatformInput\Scripts\PlatformSpecific\StandaloneInput.cs" />
+     <Compile Include="Assets\ext\Standard Assets\CrossPlatformInput\Scripts\TiltInput.cs" />
+     <Compile Include="Assets\ext\Standard Assets\CrossPlatformInput\Scripts\TouchPad.cs" />
+     <Compile Include="Assets\ext\Standard Assets\CrossPlatformInput\Scripts\VirtualInput.cs" />
+     <Compile Include="Assets\ext\Standard Assets\Utility\ActivateTrigger.cs" />
+     <Compile Include="Assets\ext\Standard Assets\Utility\AutoMobileShaderSwitch.cs" />
+     <Compile Include="Assets\ext\Standard Assets\Utility\AutoMoveAndRotate.cs" />
+     <Compile Include="Assets\ext\Standard Assets\Utility\CameraRefocus.cs" />
+     <Compile Include="Assets\ext\Standard Assets\Utility\CurveControlledBob.cs" />
+     <Compile Include="Assets\ext\Standard Assets\Utility\DragRigidbody.cs" />
+     <Compile Include="Assets\ext\Standard Assets\Utility\DynamicShadowSettings.cs" />
+     <Compile Include="Assets\ext\Standard Assets\Utility\EventSystemChecker.cs" />
+     <Compile Include="Assets\ext\Standard Assets\Utility\FOVKick.cs" />
+     <Compile Include="Assets\ext\Standard Assets\Utility\FPSCounter.cs" />
+     <Compile Include="Assets\ext\Standard Assets\Utility\FollowTarget.cs" />
+     <Compile Include="Assets\ext\Standard Assets\Utility\ForcedReset.cs" />
+     <Compile Include="Assets\ext\Standard Assets\Utility\LerpControlledBob.cs" />
+     <Compile Include="Assets\ext\Standard Assets\Utility\ObjectResetter.cs" />
+     <Compile Include="Assets\ext\Standard Assets\Utility\ParticleSystemDestroyer.cs" />
+     <Compile Include="Assets\ext\Standard Assets\Utility\PlatformSpecificContent.cs" />
+     <Compile Include="Assets\ext\Standard Assets\Utility\SimpleActivatorMenu.cs" />
+     <Compile Include="Assets\ext\Standard Assets\Utility\SimpleMouseRotator.cs" />
+     <Compile Include="Assets\ext\Standard Assets\Utility\SmoothFollow.cs" />
+     <Compile Include="Assets\ext\Standard Assets\Utility\TimedObjectActivator.cs" />
+     <Compile Include="Assets\ext\Standard Assets\Utility\TimedObjectDestructor.cs" />
+     <Compile Include="Assets\ext\Standard Assets\Utility\WaypointCircuit.cs" />
+     <Compile Include="Assets\ext\Standard Assets\Utility\WaypointProgressTracker.cs" />
+     <Compile Include="Assets\int\scripts\Audio\AudioManager.cs" />
+     <Compile Include="Assets\int\scripts\Audio\MusicManager.cs" />
+     <Compile Include="Assets\int\scripts\Character\FirstPersonController.cs" />
+     <Compile Include="Assets\int\scripts\Character\groundedCheck.cs" />
+     <Compile Include="Assets\int\scripts\PillarAnimScript.cs" />
+     <Compile Include="Assets\int\scripts\Root.cs" />
+     <Compile Include="Assets\int\scripts\SenseDebug.cs" />
+     <Compile Include="Assets\int\scripts\Swtich.cs" />
+     <Compile Include="Assets\int\scripts\bulletspawner\Bullet.cs" />
+     <Compile Include="Assets\int\scripts\bulletspawner\BulletReceiver.cs" />
+     <Compile Include="Assets\int\scripts\bulletspawner\BulletSpawner.cs" />
+     <Compile Include="Assets\int\scripts\bulletspawner\LookAt.cs" />
+     <Compile Include="Assets\int\scripts\input\DesktopInput.cs" />
+     <Compile Include="Assets\int\scripts\input\GamepadInput.cs" />
+     <Compile Include="Assets\int\scripts\input\InputBridge.cs" />
+     <Compile Include="Assets\int\scripts\input\InputProvider.cs" />
+     <Compile Include="Assets\int\scripts\sense\Sense.cs" />
+     <Compile Include="Assets\int\scripts\sense\SenseManager.cs" />
+     <Compile Include="Assets\int\scripts\sense\SenseSystem.cs" />
+     <Compile Include="Assets\int\scripts\sense\VisualSoun.cs" />
+     <Compile Include="Assets\int\scripts\sense\senses\Dexterity.cs" />
+     <Compile Include="Assets\int\scripts\sense\senses\FeelSense.cs" />
+     <Compile Include="Assets\int\scripts\sense\senses\GravitySense.cs" />
+     <Compile Include="Assets\int\scripts\sense\senses\HearSense.cs" />
+     <Compile Include="Assets\int\scripts\sense\senses\LookSense.cs" />
+     <Compile Include="Assets\int\scripts\sense\senses\Orientation.cs" />
+     <Compile Include="Assets\int\scripts\sense\senses\Strength.cs" />
+     <Compile Include="Assets\int\scripts\trigger\ChangeLevel.cs" />
+     <Compile Include="Assets\int\scripts\trigger\DoubleSwitcher.cs" />
+     <Compile Include="Assets\int\scripts\trigger\Reload.cs" />
+     <Compile Include="Assets\int\scripts\trigger\StaySwitcher.cs" />
+     <Compile Include="Assets\int\scripts\trigger\Switcher.cs" />
+     <Compile Include="Assets\int\scripts\trigger\Toggler.cs" />
+     <Compile Include="Assets\int\scripts\trigger\Trigger.cs" />
+     <Compile Include="Assets\start.cs" />
+     <None Include="Assets\ext\JMO Assets\WarFX\Shaders\WFX_S AlphaBlend Scroll.shader" />
+     <None Include="Assets\ext\JMO Assets\WarFX\Shaders\WFX_S Particle AddSoft A8.shader" />
+     <None Include="Assets\ext\JMO Assets\WarFX\Shaders\WFX_S Alpha-Specular TintColor.shader" />
+     <None Include="Assets\ext\JMO Assets\WarFX\Shaders\WFX_S AlphaBlend NoSoftParticles.shader" />
+     <None Include="Assets\ext\JMO Assets\WarFX\_Effects\MuzzleFlashes\!MuzzleFlash Differences.txt" />
+     <None Include="Assets\ext\JMO Assets\WarFX\Shaders\WFX_S Smoke Scroll.shader" />
+     <None Include="Assets\ext\JMO Assets\WarFX\Shaders\WFX_S Add Scroll.shader" />
+     <None Include="Assets\ext\JMO Assets\WarFX\!WarFX Readme.txt" />
+     <None Include="Assets\ext\JMO Assets\WarFX\Shaders\WFX_S Particle Add A8.shader" />
+     <None Include="Assets\ext\JMO Assets\Cartoon FX Easy Editor\CartoonFX Easy Editor Readme.txt" />
+     <None Include="Assets\ext\JMO Assets\WarFX\_Effects (Mobile)\MuzzleFlashes\!MuzzleFlash Differences.txt" />
+     <None Include="Assets\ext\JMO Assets\!JMO Assets Readme.txt" />
+     <None Include="Assets\ext\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
+     <None Include="Assets\ext\JMO Assets\WarFX\Shaders\WFX_S Multiply Soft Scroll.shader" />
+     <None Include="Assets\ext\JMO Assets\WarFX\Shaders\WFX_S Particle Multiply A8.shader" />
+     <None Include="Assets\ext\JMO Assets\WarFX\Shaders\WFX_S Multiply Soft.shader" />
+     <None Include="Assets\ext\JMO Assets\WarFX\Shaders\WFX_S Alpha-Diffuse TintColor.shader" />
+     <None Include="Assets\ext\Standard Assets\Characters\FirstPersonCharacter\FirstPersonCharacterGuidelines.txt" />
+     <None Include="Assets\int\level\TangyTextures Free Materials\about.txt.txt" />
+ <Reference Include="UnityEngine.UI">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Networking">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ </Reference>
+ <Reference Include="Mono.Cecil">
+ <HintPath>C:/Program Files/Unity/Editor/Data/Managed/Mono.Cecil.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.iOS.Extensions.Xcode">
+ <HintPath>C:/Program Files/Unity/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+	   Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>
